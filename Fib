@@ -1,0 +1,13 @@
+a=int(input("Enter the terms: "))
+f=0                                         
+s=1
+sum=0
+if a<=0:
+    print(f)
+else:
+    print(f,s,end=" ")
+    for x in range(2,a):
+        temp=f+s                           
+        print(temp,end=" ")
+        f=s
+        s=temp
